@@ -235,3 +235,146 @@ nav {
         margin-bottom: 50px;
     } 
 }
+
+/* Description */
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    width: 100%;
+}
+
+.boxd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}   
+
+.contenud {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px black;
+    text-decoration: none;
+    color: black;
+    transition: 250ms;
+}
+
+.titreh {
+    margin: 10px;
+    font-size: 200%;
+}
+
+.texth {
+    margin: 10px;
+    font-size: 125%;
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+/* Séparateur */
+
+.separator {
+    width: 80%;
+    height: 3px;
+    border-radius: 50%;
+    background-color:lightgray;
+}
+
+/* Autres */
+
+.autre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    width: 100%;
+}
+
+.horaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    
+} 
+
+.heure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 250ms;
+    background-color: #D11328;
+}
+
+.separatorh {
+    width: 3px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:lightgray;
+}
+
+.platdj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+} 
+
+.repasdj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 250ms;
+    background-color: #1b3549;
+}
+
+.titres {
+    margin: 10px;
+    font-size: 150%;
+    color: fuchsia;
+}
+
+@media screen and (max-width: 670px) {
+    .autre {
+        flex-direction: column;
+    }
+    .horaire {
+        width: 80%;
+        
+    } 
+    .separatorh {
+        width: 80%;
+        height: 3px;
+    }
+    .platdj {
+        width: 80%
+    } 
+}
