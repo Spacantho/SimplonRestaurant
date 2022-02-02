@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simplon Restaurant</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <?php include("assets/includes/navbar.php") ?>
+
+    <div>
+
+    </div>
 
 </body>
 </html>
