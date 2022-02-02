@@ -11,9 +11,9 @@
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
-
-    <div>
-
+    <script src="assets/js/main.js"></script>
+    <div class="banniere">
+        <img src="assets/images/LogoSimplonResto.png" class="logo">
     </div>
 
 </body>

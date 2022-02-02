@@ -186,12 +186,52 @@ nav {
         transform: translateX(10%);
     }
 }
-@media screen and (max-width: 626px) {
 
-    nav{
-        width: 80%;
-    }
-    #hamburger-sidebar {
-        min-width: 60%;
-    }
+/* banniere */
+
+.banniere {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-image: url('../images/banburger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1300px) {
+    .logo {
+        width: 50%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        width: 50%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 50%;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    } 
 }
