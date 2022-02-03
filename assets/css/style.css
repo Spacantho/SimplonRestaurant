@@ -198,7 +198,7 @@ nav {
     background-size: cover;
 }
 
-.logo {
+.log {
     width: 50%;
     margin-top: 200px;
     margin-bottom: 200px;
@@ -300,8 +300,7 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex: auto;
-    width: 100%;
+    flex: auto;;
 }
 
 .horaire {
@@ -311,7 +310,6 @@ span {
     margin-top: 100px;
     margin-bottom: 100px;
     width: 50%;
-    
 } 
 
 .heure {
@@ -321,10 +319,10 @@ span {
     align-items: center;
     width: 90%;
     border-radius: 10px;
-    text-decoration: none;
     color: white;
-    transition: 250ms;
     background-color: #D11328;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .separatorh {
@@ -350,10 +348,11 @@ span {
     align-items: center;
     width: 90%;
     border-radius: 10px;
-    text-decoration: none;
     color: white;
-    transition: 250ms;
     background-color: #1b3549;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
 }
 
 .titres {

@@ -14,7 +14,7 @@
     <script src="assets/js/main.js"></script>
 
     <div class="banniere">
-        <img src="assets/images/LogoSimplonResto.png" class="logo">
+        <img src="assets/images/LogoSimplonResto.png" class="log">
     </div>
 
     <div class="desc">
@@ -34,7 +34,7 @@
     <div class="autre">
         <div class="horaire">
             <div class="heure">
-                <h2 class="titreh">Horaires :</h2>
+                <h2 class="titreh"><i class="far fa-clock"></i>     Horaires</h2>
                 <p class="texth">Lundi : 10h30-14h30 / 17h30-00h00</p>
                 <p class="texth">Mardi : 10h30-14h30 / 17h30-00h00</p>
                 <p class="texth">Mercredi : 10h30-14h30 / 17h30-00h00</p>
@@ -49,7 +49,7 @@
 
         <div class="platdj">
             <div class="repasdj">
-                <h2 class="titreh">Plat du jour :</h2>
+                <h2 class="titreh"><i class="fas fa-utensils"></i>      Plat du jour</h2>
                 <h3 class="titres">Journée spéciale St-Valentin !!</h3>
                 <p class="texth">Burger des amoureux</p>
                 <p class="texth">Accompagnement : frites</p>
