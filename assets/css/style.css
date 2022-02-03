@@ -204,36 +204,10 @@ nav {
     margin-bottom: 200px;
 }
 
-@media screen and (max-width: 1300px) {
-    .logo {
-        width: 50%;
-        margin-top: 150px;
-        margin-bottom: 150px;
-    } 
-}
-
-@media screen and (max-width: 1000px) {
-    .logo {
-        width: 50%;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    } 
-}
-
-@media screen and (max-width: 800px) {
-    .logo {
-        width: 50%;
-        margin-top: 75px;
-        margin-bottom: 75px;
-    } 
-}
-
-@media screen and (max-width: 500px) {
-    .logo {
-        width: 50%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    } 
+@media screen and (max-width: 860px) {
+    .log {
+        visibility: hidden;
+    }
 }
 
 /* Description */
@@ -355,13 +329,24 @@ span {
     height: 100%;
 }
 
+.titrea {
+    margin: 10px;
+    font-size: 200%;
+}
+
 .titres {
     margin: 10px;
     font-size: 150%;
     color: fuchsia;
 }
 
-@media screen and (max-width: 670px) {
+.texta {
+    margin: 10px;
+    font-size: 125%;
+    text-align: center;
+}
+
+@media screen and (max-width: 860px) {
     .autre {
         flex-direction: column;
     }
@@ -375,4 +360,34 @@ span {
     .platdj {
         width: 80%
     } 
+}
+
+@media screen and (max-width: 545px) {
+    .titrea {
+        margin: 10px;
+        font-size: 150%;
+    }
+    .texta {
+        font-size: 90%;
+    }
+    .titres {
+        margin: 10px;
+        font-size: 110%;
+        color: fuchsia;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .titrea {
+        margin: 10px;
+        font-size: 120%;
+    }
+    .texta {
+        font-size: 70%;
+    }
+    .titres {
+        margin: 10px;
+        font-size: 90%;
+        color: fuchsia;
+    }
 }

@@ -34,14 +34,14 @@
     <div class="autre">
         <div class="horaire">
             <div class="heure">
-                <h2 class="titreh"><i class="far fa-clock"></i>     Horaires</h2>
-                <p class="texth">Lundi : 10h30-14h30 / 17h30-00h00</p>
-                <p class="texth">Mardi : 10h30-14h30 / 17h30-00h00</p>
-                <p class="texth">Mercredi : 10h30-14h30 / 17h30-00h00</p>
-                <p class="texth">Jeudi : 10h30-14h30 / 17h30-00h00</p>
-                <p class="texth">Vendredi : 10h30-14h30 / 17h30-02h00</p>
-                <p class="texth">Samedi : 10h30-15h / 17h-02h00</p>
-                <p class="texth">Dimanche : Fermé !</p>
+                <h2 class="titrea"><i class="far fa-clock"></i>     Horaires</h2>
+                <p class="texta">Lundi : 10h30-14h30 / 17h30-00h00</p>
+                <p class="texta">Mardi : 10h30-14h30 / 17h30-00h00</p>
+                <p class="texta">Mercredi : 10h30-14h30 / 17h30-00h00</p>
+                <p class="texta">Jeudi : 10h30-14h30 / 17h30-00h00</p>
+                <p class="texta">Vendredi : 10h30-14h30 / 17h30-02h00</p>
+                <p class="texta">Samedi : 10h30-15h / 17h-02h00</p>
+                <p class="texta">Dimanche : Fermé !</p>
             </div>
         </div>
 
@@ -49,12 +49,12 @@
 
         <div class="platdj">
             <div class="repasdj">
-                <h2 class="titreh"><i class="fas fa-utensils"></i>      Plat du jour</h2>
+                <h2 class="titrea"><i class="fas fa-utensils"></i>      Plat du jour</h2>
                 <h3 class="titres">Journée spéciale St-Valentin !!</h3>
-                <p class="texth">Burger des amoureux</p>
-                <p class="texth">Accompagnement : frites</p>
-                <p class="texth">Fondant au chocolat</p>
-                <p class="texth">Boisson au choix</p>
+                <p class="texta">Burger des amoureux</p>
+                <p class="texta">Accompagnement : frites</p>
+                <p class="texta">Fondant au chocolat</p>
+                <p class="texta">Boisson au choix</p>
             </div>
         </div>
     </div>
