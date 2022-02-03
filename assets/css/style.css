@@ -2,6 +2,12 @@
     font-family: "Roboto";
     src: url('../fonts/Roboto-Regular.ttf');
 }
+
+@font-face {
+    font-family: "Graduate";
+    src: url('../fonts/Graduate-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +26,7 @@ header {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(4px);
     border-top: 2px #D11328 solid;
-    border-bottom: 1px #1b3549 solid;
+    /*border-bottom: 1px #1b3549 solid;*/
     box-shadow: 0 1px 16px rgba(0, 0, 0, .4);
     position: sticky;
     top: 0px;
@@ -53,7 +59,7 @@ nav {
 }
 
 #nav-list-choice{
-    margin-right: 200px;
+    margin-right: 75px;
     margin-top: 8px;
 }
 
@@ -109,7 +115,7 @@ nav {
 #hamburger-sidebar-header {
     background-color: lightgray;
     border-top: 2px #D11328 solid;
-    border-bottom: 1px #1b3549 solid;
+    /*border-bottom: 1px #1b3549 solid;*/
     height: 92px;
 }
 
@@ -133,6 +139,11 @@ nav {
         background-color: rgba(245, 245, 245, 0.95);
         backdrop-filter: none;
     }   
+
+    #logo {
+        margin-left: 10px;
+    }
+
     #hamburger-content{
         display: none;
     }
@@ -186,11 +197,183 @@ nav {
     }
 }
 @media screen and (max-width: 626px) {
-
-    nav{
-        width: 80%;
+    
+    .icon-nav {
+        margin-right: 50px;
     }
-    #hamburger-sidebar {
-        min-width: 60%;
+}
+
+/* Menu */
+
+#menu-corps {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Graduate', sans-serif;
+}
+
+#menu-left-side-img {
+    width: 35%;
+    height: auto;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-bottom: 2em;
+}
+
+#menu-titre {
+    font-size: 3em;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #D11328;
+}
+
+#menu-sous-titre {
+    font-size: 0.5em;
+    color: #1b3549;
+}
+
+#menu-separation{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-separator{
+    width: 3px;
+    height: 100%;
+    background-color: lightgray;
+    border-radius: 30%;
+}
+
+#menu-horizontal-separator { /*n'apparait qu'en media queries*/
+    display: none;
+    width: 100%;
+    height: 3px;
+    background-color: lightgray;
+    border-radius: 30%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+/* Gauche */
+#menu-left {
+    width: 43%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+/*Droite*/
+#menu-right {
+    width: 43%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+/*Stylisation menu*/
+.menu-categorie {
+    font-size: 1.8em;
+    color: #D11328;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+.menu-liste-plats {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+
+.menu-plats {
+    line-height: 30px;
+}
+
+#frites{
+    font-size: 0.5em;
+}
+
+#plat-spe{
+    line-height: 18px;
+}
+#menu-event-plat-spe {
+    color: fuchsia;
+    font-size: 0.8em;
+    line-height: 5px;
+}
+
+.menu-prix {
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+
+    #menu {
+        width: 90%;
+    }
+
+    #menu-corps {
+        justify-content: center;
+    }
+
+    #menu-titre {
+        font-size: 2em;
+        height: auto;
+    }
+
+    #menu-left-side-img {
+        display: none;
+    }
+    .menu-categorie {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    
+    .menu-plats {
+        font-size: 0.8em;
+        line-height: 30px;
+    }
+    
+    .menu-prix {
+        font-size: 0.8em;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+
+    .menu-liste-plats{
+        justify-content: space-around;
+    }
+    #menu-separation {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #menu-horizontal-separator {
+        display: block;
+    }
+
+    #menu-left{
+        margin-left: 0%;
+        width: 95%;
+    }
+
+    #menu-right{
+        margin-right: 0%;
+        width: 90%;
+    }
+
+    .menu-plats {
+        line-height: 20px;
+    }
+    
+    .menu-prix {
+        line-height: 20px;
     }
 }
