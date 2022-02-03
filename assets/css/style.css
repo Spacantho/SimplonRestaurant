@@ -193,21 +193,21 @@ nav {
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    background-image: url('../images/banburger.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    z-index: -10;
+}
+
+.fond {
+    display: flex;
+    width: 100%;
 }
 
 .log {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
     width: 50%;
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
-@media screen and (max-width: 860px) {
-    .log {
-        visibility: hidden;
-    }
 }
 
 /* Description */
@@ -225,8 +225,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 100%;
 }   
 
@@ -240,7 +240,6 @@ nav {
     box-shadow: 0px 0px 0px 1px black;
     text-decoration: none;
     color: black;
-    transition: 250ms;
 }
 
 .titreh {
@@ -274,15 +273,15 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex: auto;;
+    flex: auto;
 }
 
 .horaire {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 50%;
 } 
 
@@ -310,8 +309,8 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 50%;
 } 
 
