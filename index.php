@@ -14,11 +14,47 @@
     <script src="assets/js/main.js"></script>
 
     <div class="banniere">
-        <img src="assets/images/banburger.jpg" class="fond">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="assets/images/banburger.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/banburger2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/banburger3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/banburger4.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
         <div class="con">
             <img src="assets/images/LogoSimplonResto.png" class="log">
         </div>
     </div>
+
+    <script src="assets/js/slider.js"></script>
 
     <div class="desc">
         <div class="boxd">
