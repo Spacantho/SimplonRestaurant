@@ -286,8 +286,8 @@ nav {
 
 .log {
     position: absolute;
-    top: 40%;
-    left: 72%;
+    top: 45%;
+    left: 75%;
     transform: translate(-50%, -50%);
     width: 50%;
 }
@@ -362,7 +362,8 @@ span {
     width: 75%;
     margin: 10px;
     align-items: center;
-    
+    justify-content: center;
+    flex-direction: column;
     font-size: 125%;
 }
 

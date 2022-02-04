@@ -25,13 +25,13 @@
                     <img src="assets/images/banburger.jpg" alt="">
                 </div>
                 <div class="slide">
-                    <img src="assets/images/banburger2.jpg" alt="">
+                    <img src="assets/images/banpizza1.jpg" alt="">
                 </div>
                 <div class="slide">
                     <img src="assets/images/banburger3.jpg" alt="">
                 </div>
                 <div class="slide">
-                    <img src="assets/images/banburger4.jpg" alt="">
+                    <img src="assets/images/banpate1.jpg" alt="">
                 </div>
 
                 <div class="navigation-auto">
@@ -73,6 +73,7 @@
 
             <div class="message">
                 <p>ATTENTION !! Suite à la crise du Coronavirus et des restrictions sanitaires il vous sera demandé, à l'entrée du restaurant, votre Pass Sanitaire.</p>
+                <p>Nous vous prions aussi de vous munir d'un masque et de le garder quand vous vous déplacez dans le restaurant.</p>
             </div>
         </div>
 
