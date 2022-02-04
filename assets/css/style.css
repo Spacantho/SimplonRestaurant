@@ -286,8 +286,8 @@ nav {
 
 .log {
     position: absolute;
-    top: 50%;
-    left: 75%;
+    top: 40%;
+    left: 72%;
     transform: translate(-50%, -50%);
     width: 50%;
 }
