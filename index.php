@@ -66,7 +66,15 @@
             </div>
         </div>
 
-        <div class="separator"></div>
+        <div class="covid">
+            <div class="warning">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+
+            <div class="message">
+                <p>ATTENTION !! Suite à la crise du Coronavirus et des restrictions sanitaires il vous sera demandé, à l'entrée du restaurant, votre Pass Sanitaire.</p>
+            </div>
+        </div>
 
     </div>
 

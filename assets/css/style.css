@@ -339,13 +339,31 @@ span {
     text-decoration: underline;
 }
 
-/* Séparateur */
+/* Get Covided */
 
-.separator {
-    width: 80%;
-    height: 3px;
-    border-radius: 50%;
-    background-color:lightgray;
+.covid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.warning {
+    width: 20%;
+    margin: 10px;
+    font-size: 700%;
+}
+
+.message {
+    display: flex;
+    width: 75%;
+    margin: 10px;
+    align-items: center;
+    
+    font-size: 125%;
 }
 
 /* Autres */
