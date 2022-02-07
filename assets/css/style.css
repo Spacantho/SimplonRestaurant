@@ -210,7 +210,7 @@ nav {
     overflow: hidden;
 }
 
-.slides input {
+.slides .pet {
     display: none;
 }
 
