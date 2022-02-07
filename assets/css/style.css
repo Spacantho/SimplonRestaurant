@@ -439,6 +439,7 @@ header {
     box-shadow: 0 1px 16px rgba(0, 0, 0, .4);
     position: sticky;
     top: 0px;
+    z-index : 9;
 }
 
 #logo, nav, .nav-choice{
