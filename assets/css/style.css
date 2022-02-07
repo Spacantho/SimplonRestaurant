@@ -970,6 +970,7 @@ nav {
 #menu-sous-titre {
     font-size: 0.5em;
     color: #1b3549;
+    text-decoration: underline;
 }
 
 #menu-separation{
