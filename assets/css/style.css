@@ -347,7 +347,7 @@ span {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     color: white;
 }
 
