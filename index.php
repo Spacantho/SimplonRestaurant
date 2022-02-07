@@ -62,7 +62,7 @@
                 <h2 class="titreh">Description du restaurant :</h2>
                 <p class="texth">À Charleville-Mézières, Simplon Restaurant vous propose des produits de type FastFood dans un cadre agréable et chaleureux, à deux pas des Simploniens et autres.</p>
                 <p class="texth">Simplon Restaurant, créé en 2015 par le chef étoilé <i class="fas fa-heart"></i> Romain PETIT <i class="fas fa-heart"></i>, est un restaurant alliant rapidité des FastFood et qualités des plus grands restaurants étoilés.</p>
-                <p class="texth"><span>Tous le monde est le bienvenue chez Simplon Restaurant !!</span></p>
+                <p class="texth"><span id="bienvenue">Tous le monde est le bienvenue chez Simplon Restaurant !!</span></p>
             </div>
         </div>
 
