@@ -59,7 +59,7 @@
             <label for="msg">Message :</label>
             <textarea id="msg" name="user_message"></textarea>
           </div>
-          <div class="button">
+          <div class="button-contact">
             <button type="submit">Envoyer le message</button>
           </div>
         </form>
