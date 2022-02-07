@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include("assets/includes/footer.php") ?>
+<?php include("assets/includes/navbar.php") ?>
     <div class="background-contact-tb"><h1>CONTACTEZ-NOUS</h1></div>
 
     <div id="section-2">
