@@ -44,23 +44,23 @@
       <div class="formulaire-contact">
         <form action="/my-handling-form-page" method="post">
           <div>
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name" />
+            <label for="name" class="label-contact">Nom :</label>
+            <input type="text"class="input-contact" id="name" name="user_name" />
           </div>
           <div>
-            <label for="name">Prénom :</label>
-            <input type="text" id="firstname" name="first_name" />
+            <label for="name"class="label-contact">Prénom :</label>
+            <input type="text"class="input-contact" id="firstname" name="first_name" />
           </div>
           <div>
-            <label for="mail">E-mail :</label>
-            <input type="email" id="mail" name="user_email" />
+            <label for="mail"class="label-contact">E-mail :</label>
+            <input type="email"class="input-contact" id="mail" name="user_email" />
           </div>
           <div>
-            <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message"></textarea>
+            <label for="msg"class="label-contact">Message :</label>
+            <textarea id="msg"class="input-contact" name="user_message"></textarea>
           </div>
-          <div class="button-contact">
-            <button type="submit">Envoyer le message</button>
+          <div>
+            <button type="submit" class="button-contact">Envoyer le message</button>
           </div>
         </form>
       </div>
