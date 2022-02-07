@@ -3,10 +3,12 @@
     src: url('../fonts/Roboto-Regular.ttf');
 }
 
+
 @font-face {
     font-family: "Graduate";
     src: url('../fonts/Graduate-Regular.ttf');
 }
+
 
 * {
     margin: 0;
@@ -26,7 +28,6 @@ header {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(4px);
     border-top: 2px #D11328 solid;
-    /*border-bottom: 1px #1b3549 solid;*/
     box-shadow: 0 1px 16px rgba(0, 0, 0, .4);
     position: sticky;
     top: 0px;
@@ -115,7 +116,6 @@ nav {
 #hamburger-sidebar-header {
     background-color: lightgray;
     border-top: 2px #D11328 solid;
-    /*border-bottom: 1px #1b3549 solid;*/
     height: 92px;
 }
 
@@ -196,6 +196,319 @@ nav {
         transform: translateX(10%);
     }
 }
+
+
+/* banniere */
+
+.banniere {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    position: relative;
+    z-index: -10;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 1500ms;
+}
+
+.slide img {
+   width: 100%;
+   height: auto; 
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+    
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+    
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+    
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 50%;
+    justify-content: center;
+}
+
+.navigation-auto div {
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1500ms;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 4%;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: gray;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: gray;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: gray;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: gray;
+}
+
+.fond {
+    display: flex;
+    width: 100%;
+}
+
+.log {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+/* Description */
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    width: 100%;
+}
+
+.boxd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}   
+
+.contenud {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px black;
+    text-decoration: none;
+    color: black;
+}
+
+.titreh {
+    margin: 10px;
+    font-size: 200%;
+}
+
+.texth {
+    margin: 10px;
+    font-size: 125%;
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+/* Get Covided */
+
+.covid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.warning {
+    display: flex;
+    width: 20%;
+    margin: 10px;
+    font-size: 700%;
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+    width: 75%;
+    margin: 10px;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 125%;
+}
+
+/* Autres */
+
+.autre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.horaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+} 
+
+.heure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    background-color: #D11328;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.separatorh {
+    width: 3px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:lightgray;
+}
+
+.platdj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+} 
+
+.repasdj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    border-radius: 10px;
+    color: white;
+    background-color: #1b3549;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.titrea {
+    margin: 10px;
+    font-size: 200%;
+}
+
+.titres {
+    margin: 10px;
+    font-size: 150%;
+    color: fuchsia;
+}
+
+.texta {
+    margin: 10px;
+    font-size: 125%;
+    text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+    .autre {
+        flex-direction: column;
+    }
+    .horaire {
+        width: 80%;
+    } 
+    .heure {
+        width: 100%;
+    }
+    .separatorh {
+        width: 80%;
+        height: 3px;
+    }
+    .platdj {
+        width: 80%
+    } 
+    .repasdj {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .titrea {
+        margin: 10px;
+        font-size: 150%;
+    }
+    .texta {
+        font-size: 90%;
+    }
+    .titres {
+        margin: 10px;
+        font-size: 110%;
+        color: fuchsia;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .titrea {
+        margin: 10px;
+        font-size: 120%;
+    }
+    .texta {
+        font-size: 70%;
+    }
+    .titres {
+        margin: 10px;
+        font-size: 90%;
+        color: fuchsia;
+
 @media screen and (max-width: 630px) {
     
     nav{
