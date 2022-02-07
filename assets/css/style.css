@@ -352,16 +352,18 @@ span {
 }
 
 .warning {
+    display: flex;
     width: 20%;
     margin: 10px;
     font-size: 700%;
+    justify-content: center;
 }
 
 .message {
     display: flex;
     width: 75%;
     margin: 10px;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
     flex-direction: column;
     font-size: 125%;
