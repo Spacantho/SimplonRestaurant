@@ -508,6 +508,8 @@ span {
         margin: 10px;
         font-size: 90%;
         color: fuchsia;
+    }
+}
 
 @media screen and (max-width: 630px) {
     
