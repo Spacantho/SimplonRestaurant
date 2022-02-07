@@ -21,14 +21,12 @@
                                 <div class="menu-categorie"><p>Pizza :</p></div>
                                     <div class="menu-liste-plats">
                                         <div class="menu-plats">
-                                            <p> 
-                                                La Margarita</br>
-                                                La Cinq Fromages</br>
-                                                La Chorizo</br>
-                                                La Cannibale</br>
-                                                La Végétarienne</br> 
-                                                La Chicken Cesar</br>
-                                            </p>
+                                            <div class="onclick-popup" id="margherita">La Margherita</div>
+                                            <div class="onclick-popup" id="cinqFromages">La Cinq Fromages</div>
+                                            <div class="onclick-popup" id="chorizo">La Chorizo</div>
+                                            <div class="onclick-popup" id="cannibale">La Cannibale</div>
+                                            <div class="onclick-popup" id="vegetarienne">La Végétarienne</div>
+                                            <div class="onclick-popup" id="chickenCesar">La Chicken Cesar</div>
                                         </div>
                                         <div class="menu-prix">
                                             <p> 
@@ -45,13 +43,11 @@
                                 <div class="menu-categorie"><p>Burgers<span id=frites> + frites </span>:</p></div>
                                     <div class="menu-liste-plats">
                                         <div class="menu-plats">
-                                            <p> 
-                                                Hamburger</br>
-                                                Cheese</br>
-                                                Bacon</br>
-                                                Chicken</br>
-                                                Veggie</br>
-                                            </p>
+                                            <div class="onclick-popup" id="burger">Hamburger</div>
+                                            <div class="onclick-popup" id="cheese">Cheese</div>
+                                            <div class="onclick-popup" id="bacon">Bacon</div>
+                                            <div class="onclick-popup" id="chicken">Chicken</div>
+                                            <div class="onclick-popup" id="veggie">Veggie</div>
                                         </div>
                                         <div class="menu-prix">
                                             <p> 
@@ -67,10 +63,8 @@
                                 <div class="menu-categorie"><p>Pâtes :</p></div>
                                     <div class="menu-liste-plats">
                                         <div class="menu-plats">
-                                            <p> 
-                                                Carbonara</br>
-                                                Bolognaise</br>
-                                            </p>
+                                            <div class="onclick-popup" id="carbonara">Carbonara</div>
+                                            <div class="onclick-popup" id="bolognaise">Bolognaise</div>
                                         </div>
                                         <div class="menu-prix">
                                             <p> 
@@ -83,11 +77,9 @@
                                 <div class="menu-categorie"><p>Desserts :</p></div>
                                     <div class="menu-liste-plats">
                                         <div class="menu-plats">
-                                            <p> 
-                                                Fondant au chocolat</br>
-                                                Îles flottantes</br>
-                                                Poire Belle-Hélène</br>
-                                            </p>
+                                            <div class="onclick-popup" id="fondant">Fondant au chocolat</div>
+                                            <div class="onclick-popup" id="ilesFlottantes">Îles flottantes</div>
+                                            <div class="onclick-popup" id="belleHelene">Poire Belle-Hélène</div>
                                         </div>
                                         <div class="menu-prix">
                                             <p> 
@@ -101,9 +93,9 @@
                                 <div class="menu-categorie"><p>Plat du jour :</p></div>
                                     <div class="menu-liste-plats">
                                         <div class="menu-plats">
-                                            <p id="plat-spe"> 
+                                            <div class="onclick-popup" id="burgerAmoureux"> 
                                                 Burger des amoureux</br><span id="menu-event-plat-spe">Spécial Saint-Valentin</span>
-                                            </p>
+                                            </div>
                                         </div>
                                         <div class="menu-prix">
                                             <p> 
@@ -119,14 +111,12 @@
                                     <div class="menu-categorie"><p>Softs :</p></div>
                                         <div class="menu-liste-plats">
                                             <div class="menu-plats">
-                                                <p> 
-                                                    Coca Cola 33cl</br>
-                                                    Lipton IceTea 33cl</br>
-                                                    Sprite 33cl</br>
-                                                    Oasis 33cl</br>
-                                                    Redbull 25cl</br>
-                                                    Monster 50cl</br>
-                                                </p>
+                                                <div class="onclick-popup" id="cocaCola">Coca Cola 33cl</div>
+                                                <div class="onclick-popup" id="iceTea">Lipton IceTea 33cl</div>
+                                                <div class="onclick-popup" id="sevenUp">7up 33cl</div>
+                                                <div class="onclick-popup" id="oasis">Oasis 33cl</div>
+                                                <div class="onclick-popup" id="redbull">Redbull 25cl</div>
+                                                <div class="onclick-popup" id="monster">Monster 50cl</div>
                                             </div>
                                             <div class="menu-prix">
                                                 <p> 
@@ -143,22 +133,22 @@
                                     <div class="menu-categorie"><p>Alcools :</p></div>
                                         <div class="menu-liste-plats">
                                             <div class="menu-plats">
-                                                <p> 
-                                                    8.6 50cl</br>
-                                                    Triple Karmeliet 33cl</br>
-                                                    Leffe 33cl</br>
-                                                    Vin Rouge 75cl</br>
-                                                    Whisky 4cl</br>
-                                                    Get 27 5cl</br>
-                                                    Jagermeister 50cl</br>
-                                                </p>
+                                                <div class="onclick-popup" id="heineken">Heineken 22cl</div>
+                                                <div class="onclick-popup" id="huitSix">8.6 50cl</div>
+                                                <div class="onclick-popup" id="triple">Triple Karmeliet 33cl</div>
+                                                <div class="onclick-popup" id="leffe">Leffe 33cl</div>
+                                                <div class="onclick-popup" id="vinRouge">Vin Rouge 75cl</div>
+                                                <div class="onclick-popup" id="whisky">Whisky 4cl</div>
+                                                <div class="onclick-popup" id="rhum">Rhum 4cl</div>
+                                                <div class="onclick-popup" id="jager">Jagermeister 50cl</div>
                                             </div>
                                             <div class="menu-prix">
                                                 <p> 
+                                                    Offerte</br>
                                                     0.50€</br>
                                                     1.50€</br>
                                                     1€</br>
-                                                    8€</br>
+                                                    15€</br>
                                                     1.20€</br>
                                                     1.20€</br>
                                                     5€</br>
@@ -169,12 +159,10 @@
                                     <div class="menu-categorie"><p>Healthy :</p></div>
                                         <div class="menu-liste-plats">
                                             <div class="menu-plats">
-                                                <p> 
-                                                    Salade César</br>
-                                                    Galettes de Brocoli</br>
-                                                    Croquettes de semoule</br>
-                                                    Tarte aux courgettes</br>
-                                                </p>
+                                                <div class="onclick-popup" id="saladeCesar">Salade César</div>
+                                                <div class="onclick-popup" id="brocoli">Galettes de Brocoli</div>
+                                                <div class="onclick-popup" id="croquetteSemoule">Croquettes de semoule</div>
+                                                <div class="onclick-popup" id="courgette">Tarte aux courgettes</div>
                                             </div>
                                             <div class="menu-prix">
                                                 <p> 
@@ -189,11 +177,9 @@
                                 <div class="menu-categorie"><p>Plâts spéciaux :</p></div>
                                     <div class="menu-liste-plats">
                                         <div class="menu-plats">
-                                            <p>
-                                                Couscous</br>
-                                                Chilli Con Carne</br>
-                                                Fajitas</br>
-                                            </p>
+                                            <div class="onclick-popup" id="couscous">Couscous</div>
+                                            <div class="onclick-popup" id="chili">Chilli Con Carne</div>
+                                            <div class="onclick-popup" id="fajitas">Fajitas</div>
                                         </div>
                                         <div class="menu-prix">
                                             <p> 
@@ -208,6 +194,17 @@
                         </div>
                     </div>
                 </div>    
+            </div>
+            <div id="modal">
+                <i class="fas fa-times-circle" id="close" onclick="closeModal()"></i>
+                <div id="modal-separation">
+                    <img id="popup_photo_plat" src="./assets/images/imagePlats/ilesFlottantes.jpeg" alt="#">
+                    <div id="info-plat">
+                        <div id="popup_nom_plat">Nom</div>
+                        <div id="popup_description_plat">Description</div>
+                        <div id="popup_prix_plat">Prix</div>
+                    </div>
+                </div>
             </div>  
 
     <script src="assets/js/main.js"></script>

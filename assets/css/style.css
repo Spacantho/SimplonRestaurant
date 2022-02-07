@@ -196,10 +196,21 @@ nav {
         transform: translateX(10%);
     }
 }
-@media screen and (max-width: 626px) {
+@media screen and (max-width: 630px) {
     
+    nav{
+        max-width: 180px;
+    }
+    .nav-choice {
+        font-size: 11px;
+    }
+
     .icon-nav {
-        margin-right: 50px;
+        font-size: 15px;
+    }
+
+    #hamburger-sidebar {
+        width: 45%;
     }
 }
 
@@ -295,9 +306,6 @@ nav {
     font-size: 0.5em;
 }
 
-#plat-spe{
-    line-height: 18px;
-}
 #menu-event-plat-spe {
     color: fuchsia;
     font-size: 0.8em;
@@ -306,6 +314,10 @@ nav {
 
 .menu-prix {
     line-height: 30px;
+}
+
+.onclick-popup:hover{
+    color: #D11328;
 }
 
 @media screen and (max-width: 1150px) {
@@ -375,5 +387,185 @@ nav {
     
     .menu-prix {
         line-height: 20px;
+    }
+}
+
+/*Modal*/
+
+.onclick-popup{
+    cursor: pointer;
+}
+
+#modal {
+    display: block;
+    font-family: 'Graduate', sans-serif;
+    text-align: center;
+    height: 200px;
+    width: 55%;
+    background-color: rgb(255, 255, 255);
+    border-top: 4px #D11328 solid;
+    border-right: 4px #D11328 solid;
+    border-left: 4px #D11328 solid;
+    position: fixed;
+    bottom: -450px;
+    left: 40%;
+    transition: 0.5s;
+}
+
+#modal h1 {
+    margin-top: 60px;
+}
+
+#close {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/* In Modal */
+
+#modal-separation {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#info-plat {
+    width: 65%;
+}
+
+#popup_nom_plat {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Graduate', sans-serif;
+    color: #1b3549;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#popup_description_plat {
+    font-size: 20px;
+    padding: 0 10%;
+}
+
+#popup_prix_plat {
+    font-size: 25px;
+    color: #D11328;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+#popup_photo_plat {
+    height: 200px;
+}
+
+@media screen and (max-width: 1150px) {
+
+    #modal {
+        height: 150px;
+        width: 50%;
+        left: 25%;
+    }
+
+    #popup_nom_plat {
+        font-size: 20px;
+    }
+    
+    #popup_description_plat {
+        font-size: 15px;
+    }
+    
+    #popup_prix_plat {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #popup_photo_plat {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    #modal {
+        height: 100px;
+        width: 50%;
+        left: 25%;
+    }
+
+    #info-plat {
+        width: 80%;
+    }
+    
+
+    #popup_nom_plat {
+        font-size: 15px;
+    }
+    
+    #popup_description_plat {
+        font-size: 10px;
+    }
+    
+    #popup_prix_plat {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    #popup_photo_plat {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    #modal {
+        height: 100px;
+        width: 80%;
+        left: 10%;
+    }
+
+    #popup_nom_plat {
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #popup_description_plat {
+        font-size: 10px;
+    }
+    
+    #popup_prix_plat {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    #popup_photo_plat {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    #modal {
+        height: 100px;
+        width: 80%;
+        left: 10%;
+    }
+
+    #popup_nom_plat {
+        font-size: 13px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #popup_description_plat {
+        font-size: 10px;
+    }
+    
+    #popup_prix_plat {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    #popup_photo_plat {
+        display: none;
     }
 }
