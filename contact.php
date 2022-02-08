@@ -66,7 +66,7 @@
       </div>
     </div>
     
-      
+     <?php include("assets/includes/backtotop.php") ?> 
     <?php include("assets/includes/footer.php") ?>
 <script src="assets/js/main.js"></script>
 
