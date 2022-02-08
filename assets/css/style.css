@@ -1294,3 +1294,24 @@ nav {
         display: none;
     }
 }
+
+ /***BACKTOTOP***/
+
+ #myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #fff0; 
+  color: #d11328; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+#myBtn i:hover{
+  color: #fff;
+}
